@@ -1,9 +1,15 @@
 package Figuras;
 
-import Figuras.Figura;
-
 public class Cuadrado extends Rectangulo {
 
-    private double l;
+    public Cuadrado (){
+        super();
+    }
+    public Cuadrado (double _l){
+        super(_l,_l);
+    }
 
+    public void printDimensiones(){
+        super.printDimensiones();
+    }
 }
