@@ -20,5 +20,10 @@ public class Main {
         c.printDimensiones();
         System.out.println(c.area()+"\n");
 
+
+        Figura[] vectorFiguras = new Figura[]{r,cu,t,c};
+        GestorFiguras gf = new GestorFiguras();
+        System.out.println(gf.suma(vectorFiguras));
+
     }
 }

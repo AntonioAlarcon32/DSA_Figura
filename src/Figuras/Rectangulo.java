@@ -2,8 +2,8 @@ package Figuras;
 
 public class Rectangulo extends Figura {
 
-    double l1;
-    double l2;
+    private double l1;
+    private double l2;
 
     public Rectangulo (){
         this.l1 =0;
