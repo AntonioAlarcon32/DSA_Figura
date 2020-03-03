@@ -2,8 +2,8 @@ package Figuras;
 
 public class Rectangulo extends Figura {
 
-    static double l1;
-    static double l2;
+    double l1;
+    double l2;
 
     public Rectangulo (){
         this.l1 =0;
@@ -14,8 +14,13 @@ public class Rectangulo extends Figura {
         this.l2 =_l2;
     }
 
+    @Override
     public void printDimensiones(){
-        System.out.print(l1+" x "+l2+"\n");
+        System.out.println(l1+" x "+l2);
     }
 
+    @Override
+    public double area() {
+        return this.l1*this.l2;
+    }
 }

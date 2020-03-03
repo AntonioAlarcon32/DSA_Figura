@@ -1,6 +1,6 @@
 package Figuras;
 
-public class Triangulo {
+public class Triangulo extends Figura {
 
     private double b;
     private double h;
@@ -12,6 +12,16 @@ public class Triangulo {
     public Triangulo (double _b, double _h){
         this.b =_b;
         this.h =_h;
+    }
+
+    @Override
+    public void printDimensiones(){
+        System.out.println("Base: "+b+"\nAltura: "+h);
+    }
+
+    @Override
+    public double area() {
+        return b*h/2;
     }
 
 }
