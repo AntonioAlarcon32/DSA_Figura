@@ -25,5 +25,19 @@ public class Main {
         GestorFiguras gf = new GestorFiguras();
         System.out.println(gf.suma(vectorFiguras));
 
+        printFiguras(vectorFiguras);
+        gf.sort(vectorFiguras);
+        printFiguras(vectorFiguras);
+
+
+
+    }
+
+
+    private static void printFiguras(Figura[] figuras) {
+        System.out.println("\n");
+        for (Figura f: figuras) {
+            System.out.println(f);
+        }
     }
 }

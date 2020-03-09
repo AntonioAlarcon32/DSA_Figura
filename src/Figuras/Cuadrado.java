@@ -9,13 +9,5 @@ public class Cuadrado extends Rectangulo {
         super(_l,_l);
     }
 
-    @Override
-    public void printDimensiones(){
-        super.printDimensiones();
-    }
 
-    @Override
-    public double area() {
-        return super.area();
-    }
 }

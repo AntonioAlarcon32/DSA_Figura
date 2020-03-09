@@ -1,5 +1,7 @@
 package Figuras;
 
+import java.util.Arrays;
+
 public class GestorFiguras {
 
     public double suma(Figura[] figuras){
@@ -10,8 +12,9 @@ public class GestorFiguras {
         return total;
     }
 
-    public double sort(Figura[] F){
-        return 0.0;//PROVISIONAL
+    public void sort(Figura[] figuras){
+        Arrays.sort(figuras);
+//        return 0.0;//PROVISIONAL
     }
 
 }
